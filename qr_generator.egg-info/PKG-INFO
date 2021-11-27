@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: qr-generator
+Version: 1.0
+Summary: QR Code image generator
+Home-page: UNKNOWN
+Author: Jorge Perez
+Author-email: 
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Provides-Extra: all
