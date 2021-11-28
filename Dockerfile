@@ -8,6 +8,4 @@ RUN pip install -r requirements.txt
 
 COPY . /
 
-ENTRYPOINT [ "python3" ]
-
-CMD [ "qrcode-generator/generator.py" ]
+ENTRYPOINT [ "python3", "qrcode-generator/generator.py"]
