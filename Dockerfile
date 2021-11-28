@@ -1,4 +1,4 @@
-FROM python@sha256:85d79ea7f22dd6eefb1101753129b5f681af7622c92f1e74f5cd58c18fb5dabd
+FROM python@sha256:428d6f9f06746ed3bcdf6e273cee6bf91d1a2978c157b0466b308e5b3bd12c7e
 
 COPY ./requirements.txt /requirements.txt
 
@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 
 COPY . /
 
-ENTRYPOINT [ "python3", "qrcode-generator/generator.py"]
+ENTRYPOINT ["python", "qrcode-generator/generator.py"]
